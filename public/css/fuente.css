@@ -1,0 +1,36 @@
+/* para los titulos siempre va el roboto  */
+
+
+/* para los parrsfos siemre va el Montserrat */
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BlackItalic;
+    src: url(../font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+.fuente_titulo {
+    font-family: Roboto-Bold;
+    text-align: center;
+    color: #CF1414;
+    font-size: 60px;
+}
+
+.fuente_subtitulo {
+    font-family: Roboto-BlackItalic;
+}
+
+.fuente_parrafo {
+    font-family: Montserrat-SemiBold;
+    text-align: justify;
+    font-size: 50px;
+}
